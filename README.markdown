@@ -101,14 +101,14 @@ For all other users, simply drop the `mib_translator.vim` file to your
 ### :OidTranslateFromLabel
 Displays the OID information if the OID name is given. This is the reverse translation.
 
-    `:OidReverseTranslate ipv6MIB`
+    :OidReverseTranslate ipv6MIB
 
 ![Reverse Inference](https://raw.github.com/caglartoklu/mib_translator.vim/media/sshots/infer_reverse.png)
 
 ### :OidTranslateFromOid
 Displays the OID information if the OID number is given. This is the forward translation.
 
-    `:OidTranslate .1.3.6.1.2.1.55`
+    :OidTranslate .1.3.6.1.2.1.55
 
 ![Forward Inference](https://raw.github.com/caglartoklu/mib_translator.vim/media/sshots/infer_forward.png)
 
@@ -118,9 +118,9 @@ according to the data the cursor is on.
 
 These are both correct, and they will call the proper translation command:
 
-    `:OidTranslateInfer .1.3.6.1.2.1.55`
+    :OidTranslateInfer .1.3.6.1.2.1.55
 
-    `:OidTranslateInfer ipv6MIB`
+    :OidTranslateInfer ipv6MIB
 
 ### :OidTranslateNumberList
 Prints the list of all OIDs known by the system.
