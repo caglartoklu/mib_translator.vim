@@ -21,6 +21,10 @@ in a constant, you can easily access its SNMP translation within Vim.
 
 ## Changelog
 
+The changes from now on will be not be posted in this section anymore,
+please follow the [commit log](https://github.com/caglartoklu/mib_translator.vim/commits/master)
+for that purpose.
+
 - 0.0.6, 2013-11-04
   - Hosted the code on [Github](https://github.com),
     all the development will be on Github from now on.
@@ -99,10 +103,14 @@ Displays the OID information if the OID name is given. This is the reverse trans
 
     `:OidReverseTranslate ipv6MIB`
 
+![Reverse Inference](https://raw.github.com/caglartoklu/mib_translator.vim/media/sshots/infer_reverse.png)
+
 ### :OidTranslateFromOid
 Displays the OID information if the OID number is given. This is the forward translation.
 
     `:OidTranslate .1.3.6.1.2.1.55`
+
+![Forward Inference](https://raw.github.com/caglartoklu/mib_translator.vim/media/sshots/infer_forward.png)
 
 ### :OidTranslateInfer or :OidTranslateInfer
 Infers whether to call `OidTranslateFromOid` or `OidTranslateFromLabel`
@@ -116,6 +124,8 @@ These are both correct, and they will call the proper translation command:
 
 ### :OidTranslateNumberList
 Prints the list of all OIDs known by the system.
+
+![Forward Inference](https://raw.github.com/caglartoklu/mib_translator.vim/media/sshots/oidtranslate_list.png)
 
 
 ## Configuration
@@ -181,6 +191,8 @@ On Linux systems, *Net-SNMP* package can easily be installed using the
 package manager such as `apt-get`.
 On Windows, it is recommended that `C:\usr\bin` is in the path variable.
 That is where `snmptranslate.exe` lives.
+
+![Path Configuration](https://raw.github.com/caglartoklu/mib_translator.vim/media/sshots/snmptranslate_path.png)
 
 
 ## License
