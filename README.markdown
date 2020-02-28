@@ -212,10 +212,3 @@ All trademarks and registered trademarks are the property of their respective ow
 is not part of this software, please see its license file
 [here](http://www.net-snmp.org/about/license.html).
 
-
-
-## Contact Info
-You can find me on
-[Google+](https://plus.google.com/108566243864924912767/posts)
-
-Feel free to send bug reports, or ask questions.
